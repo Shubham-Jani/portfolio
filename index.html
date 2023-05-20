@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Vide-0.5.1/src/jquery.vide.js"></script>
+
+
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background: transparent !important;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .jumbotron {
+            background: transparent !important;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0069d9;
+            border-color: #0062cc;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4">
+                <span class="animated-text">Shubham</span>
+                <span class="animated-text">Jani</span>
+            </h1>
+            <!-- <h1 class="display-4" id="animated-text">Shubham Jani</h1> -->
+            <p class="lead">I create beautiful websites and web applications.</p>
+            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, aperiam excepturi! Similique
+                dolorem ex iure, voluptatem exercitationem accusamus nisi officiis necessitatibus assumenda magnam
+                beatae ratione quaerat porro provident, vel cupiditate incidunt voluptates nam consequuntur et animi.
+                Dolore autem deserunt libero non nam aut aliquam. Veritatis qui, sunt consectetur non aspernatur ad
+                nesciunt doloribus, incidunt aut harum facilis velit, soluta exercitationem optio. Quia alias sint
+                doloribus corporis. Nisi, sunt eaque nulla qui molestias necessitatibus, fuga, neque assumenda quidem
+                voluptatibus reprehenderit laudantium!
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://external-preview.redd.it/qrXCF-ZLnA8R6qZG8iHWhBrHN-DjIrOa9Z1DFBlXJD8.jpg?auto=webp&s=37c3ec00eb1d2ad01eadf0342f3c0c2c1fe27edf"
+                            class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Security Management With PySimpleGui</h5>
+                            <p class="card-text">The PySimpleGUI security app is a user-friendly solution for managing
+                                security tasks. It provides features like user authentication, password management, and
+                                security configuration. Users can securely log in, store and generate passwords,
+                                configure security settings, and track security incidents. The app aims to enhance
+                                security by offering a simple and intuitive interface for users to manage their security
+                                needs effectively.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="django.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Django PDF</h5>
+                            <p class="card-text">The PDF reader with Django is a web application that allows users to
+                                upload, view, and interact with PDF documents. Built on the Django framework, this
+                                application provides a seamless and user-friendly interface for reading PDF files
+                                online. Users can upload their PDF documents, and the application renders them for easy
+                                viewing within the browser. Additionally, the PDF reader supports basic functionalities
+                                such as zooming, scrolling, and stuff like this do work and like</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://external-preview.redd.it/qrXCF-ZLnA8R6qZG8iHWhBrHN-DjIrOa9Z1DFBlXJD8.jpg?auto=webp&s=37c3ec00eb1d2ad01eadf0342f3c0c2c1fe27edf"
+                            class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Dummy Project</h5>
+                            <p class="card-text">The PDF reader with Django is a web application that allows users to
+                                upload, view, and interact with PDF documents. Built on the Django framework, this
+                                application provides a seamless and user-friendly interface for reading PDF files
+                                online. Users can upload their PDF documents, and the application renders them for easy
+                                viewing within the browser. Additionally, the PDF reader supports basic functionalities
+                                such as zooming, scrolling, and stuff like this do work and like</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container text-light">
+            <h2>Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2023 Portfolio Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+    <script src="Vide-0.5.1/src/jquery.vide.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+
+    <!-- Custom Scripts -->
+    <script>
+        // Custom jQuery code here
+        $(document).ready(function () {
+            $('.animated-text').lettering();
+            $('.animated-text').textillate({
+                initialDelay: 100,
+                in: {
+                    effect: 'fadeInLeft',
+                    delay: 100,
+                    shuffle: true
+                }
+            });
+            $('body').vide('background.mp4');
+            // Add jQuery code here
+            // Example: Smooth scrolling on anchor links
+            $('a[href^="#"]').on('click', function (event) {
+                var target = $(this.getAttribute('href'));
+                if (target.length) {
+                    event.preventDefault();
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
